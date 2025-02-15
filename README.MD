@@ -42,5 +42,7 @@
 - Python 3.10+
 -  API Key
 
+![screen](core/screen.png)
+
 ## 🧩 Project Structure
 
