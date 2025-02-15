@@ -55,12 +55,12 @@ def create_chat_interface():
             with gr.Column(scale=1):
                 model_choice = gr.Dropdown(
                     choices=[
-                        ("DeepSeek-R1", "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B"),
-                        ("OpenAi o1", "Qwen/Qwen2.5-72B-Instruct"),
-                        ("Gemini 2.0", "HuggingFaceTB/SmolLM2-1.7B-Instruct"),
-                        ("Claude 3.5", "Qwen/Qwen2.5-Coder-32B-Instruct")
+                        ("DeepSeek-R1", "  "), #add your model url endpoint 
+                        ("OpenAi o1", ""),#add your model url endpoint 
+                        ("Gemini 2.0", ""), #add your model url endpoint 
+                        ("Claude 3.5", "") #add your model url endpoint 
                     ],
-                    value="deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+                    value="", #add your model url endpoint 
                     label="Model Selection"
                 )
 
