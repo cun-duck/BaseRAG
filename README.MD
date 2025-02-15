@@ -45,4 +45,23 @@
 ![screen](core/screen.png)
 
 ## 🧩 Project Structure
+'''bash
+BaseRAG/
+├── core/               # RAG Engine Components
+│   ├── retrieval.py    # Hybrid search algorithms
+│   ├── chunking.py     # Adaptive document splitting
+│   └── caching.py      # Semantic cache layer
+│
+├── models/             # LLM Integration
+│   ├── llm.py          # Unified model interface
+│   └── embedding.py    # Vectorization pipelines
+│
+├── utils/              # Infrastructure
+│   ├── logger.py       # Production logging
+│   └── error_handling.py # Fault tolerance
+│
+├── app.py              # Main application
+├── config.py           # Runtime configuration
+└── requirements.txt    # Dependency manifest
+'''
 
