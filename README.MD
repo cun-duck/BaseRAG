@@ -43,7 +43,7 @@
 -  API Key
 
 ## 🧩 Project Structure
-Copy
+
 BaseRAG/
 ├── core/               # RAG Engine Components
 │   ├── retrieval.py    # Hybrid search algorithms
