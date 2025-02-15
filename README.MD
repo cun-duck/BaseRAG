@@ -44,4 +44,10 @@
 
 ![screen](core/screen.png)
 
+📊 Performance Metrics
+Metric	DeepSeek-R1	GPT-3.5	Gemini-Pro
+Avg Response Time	1.2s	2.8s	3.1s
+Precision@5	0.89	0.82	0.78
+Tokens/Sec	412	380	325
+
 
